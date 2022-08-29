@@ -76,6 +76,28 @@
   color: #61dafb;
 }
 
+
+.prdtList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.prdtList .itemCard {
+  max-width: 30%;
+  margin: 0 1.56%;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.prdtList .itemCard img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

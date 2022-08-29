@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 export const Header = () => {
-  const cartData = useSelector(state => state.app);
+  const cartData = useSelector(state => state.cart);
   console.log(cartData);
   return (
     <header className='header'>
